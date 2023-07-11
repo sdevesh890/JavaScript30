@@ -1,0 +1,60 @@
+html {
+    font-size: 10px;
+    background: url(danny-howe-bn-D2bCvpik-unsplash.jpg) bottom center;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .keys
+  {
+     height: 50vh;
+     width: 99vw;
+     margin-left: 9px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+
+  .playing
+  {
+     scale: 1.5;
+     box-shadow: 5px 5px yellow;
+  }
+
+  kbd
+  {
+     display: block;
+     margin: 15px 0px 0px 30px;
+     font-size: 3.5rem;
+     
+  }
+  span
+  {
+     font-size: 14px;
+     margin-left: 25px;
+     color: yellow;
+     font-weight: 600;
+  }
+
+  .key
+  {
+     height: 90px;
+     width: 120px;
+     color: white;
+     margin: 40px;
+     display: inline-block;
+     border: 2px solid rgb(251, 255, 23);
+     background-color: black;
+     transition: all 0.1s;
+  }
