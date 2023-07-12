@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    font-size: 30px;
+}
+
+.main
+{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(#2E3192, #1BFFFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock
+{
+    height: 15rem;
+    width: 15rem;
+    border: 27px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+.clock div
+{
+    border: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 51%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0.1, 2.7, 0.58, 1);  
+}
+#sec-hand
+{
+     width: 50%;
+     border-width:1px;
+}
+#hour-hand
+{
+     width: 40%;
+     margin-left: 45px;
+}
+#min-hand
+{
+     width: 50%;
+}
